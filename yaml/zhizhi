@@ -1,0 +1,7 @@
+# Unbreak 白名单 不应该被广告链接的网站
+
+# diy
+DOMAIN-SUFFIX,5v13.com
+DOMAIN-SUFFIX,zhiniw.com
+DOMAIN-SUFFIX,imacso.com.com
+close
