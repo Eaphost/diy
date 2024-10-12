@@ -335,6 +335,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  diy:
+    url: https://raw.githubusercontent.com/Eaphost/diy/refs/heads/main/yaml/zhizhi.list
+    path: ./ruleset/zhizhi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http  
   BanAD:
     url: https://ghp.ci/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
     path: ./ruleset/BanAD.list
@@ -535,6 +542,7 @@ rule-providers:
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
+  - "RULE-SET,diy,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
   - "RULE-SET,GoogleFCM,谷歌FCM"
