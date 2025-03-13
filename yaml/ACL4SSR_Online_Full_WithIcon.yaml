@@ -216,14 +216,14 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
     proxies:
-      - REJECT
       - DIRECT
+      - REJECT
   - name: 应用净化
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
     type: select
     proxies:
-      - REJECT
       - DIRECT
+      - REJECT
   - name: 漏网之鱼
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
